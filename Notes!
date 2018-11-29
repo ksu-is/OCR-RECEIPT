@@ -3,3 +3,6 @@ trying to get Greg to download github desktop....
 running into multiple problems mostly concerning PIL and Pillow- confusing
 Tried Using xcode on the mac- didnt work
 found a new OCR scanner https://github.com/jbarlow83/OCRmyPDF
+on my mac i installed, pytesseract and PIL.
+and installed argparse
+and installed opencv
