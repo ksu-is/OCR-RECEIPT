@@ -4,7 +4,6 @@ import argparse
 import cv2
 import sys
 import os
-
 again = "yes"
 
 while again == "yes":
@@ -24,6 +23,7 @@ while again == "yes":
 	#load the example image and convert it to grayscale
 	image = cv2.imread(image)
 	gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+
  
 	#check to see if we should apply thresholding to preprocess the
 	#image
@@ -49,8 +49,8 @@ while again == "yes":
 
 
 	#show the output images
-	cv2.imshow("Image", image)
-	cv2.imshow("Output", gray)
+	#cv2.imshow("Image", image)
+	#cv2.imshow("Output", gray)
 	
 	print("\n")
 	print("\n")
@@ -58,6 +58,3 @@ while again == "yes":
 	again = input("Look how fast I can read! Wanna go again?").strip().lower()
 if again == "no":
 	quit
-
-
-
