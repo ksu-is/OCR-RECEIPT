@@ -1,3 +1,8 @@
+# Basic version of OCR Scanner, works on Windows machine.  
+
+
+
+
 from PIL import Image
 import pytesseract
 import argparse
